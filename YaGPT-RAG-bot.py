@@ -170,10 +170,10 @@ def main():
     mdb_os_index_name = f"cba-{mdb_os_index_name}"
 
     # yagpt_temp = st.sidebar.slider("Температура", 0.0, 1.0, 0.1)
-    # rag_k = st.sidebar.slider("Количество поисковых выдач размером с один блок", 1, 10, 5)
+    rag_k = st.sidebar.slider("Количество поисковых выдач размером с один блок", 1, 10, 5)
 
     # yagpt_temp = st.sidebar.text_input("Температура", type='password', value=0.01)
-    rag_k = st.sidebar.text_input("Количество поисковых выдач размером с один блок", type='password', value=5)
+    # rag_k = st.sidebar.text_input("Количество поисковых выдач размером с один блок", type='password', value=5)
     yagpt_temp = st.sidebar.slider("Степень креативности (температура)", 0.0, 1.0, 0.01)
 
     # Параметры chunk_size и chunk_overlap
