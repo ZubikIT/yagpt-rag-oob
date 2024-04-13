@@ -18,10 +18,10 @@ MDB_OS_PWD =
 MDB_OS_HOSTS = fqdn-host1,fqdn-host2,fqdn-host3 
 mdb_prefix = 
 ```
-`YAGPT_FOLDER_ID` - id фолдера в yandex cloud, внутри которого используется сервис yandexgpt
-`YAGPT_API_KEY` - api ключ для доступа к yandexgpt, создается после создания сервисного аккаунта и привязан к нему, подробнее по [ссылке](https://yandex.cloud/ru/docs/foundation-models/api-ref/authentication#service-account_1)
-`MDB_OS_PWD` - админский пароль доступа к Базе Данных (БД)
-`MDB_OS_HOSTS` - список fqdn хостов БД, на которых будет размещаться индекс, через запятую
+`YAGPT_FOLDER_ID` - id фолдера в yandex cloud, внутри которого используется сервис yandexgpt \n
+`YAGPT_API_KEY` - api ключ для доступа к yandexgpt, создается после создания сервисного аккаунта и привязан к нему, подробнее по [ссылке](https://yandex.cloud/ru/docs/foundation-models/api-ref/authentication#service-account_1) \n
+`MDB_OS_PWD` - админский пароль доступа к Базе Данных (БД) \n
+`MDB_OS_HOSTS` - список fqdn хостов БД, на которых будет размещаться индекс, через запятую \n
 `mdb_prefix` - префикс по-умолчанию перед названием индекса БД, позволяет администратору различать индексы разных тенантов между собой
 
 - файл `requirements.txt` традиционно содержит в себе список необходимых для работы программы модулей, которые устанавливаются командой 
