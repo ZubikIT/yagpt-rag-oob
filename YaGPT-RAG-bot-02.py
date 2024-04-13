@@ -115,7 +115,7 @@ def main():
         st.title('\U0001F917\U0001F4ACИИ-помощник')
         st.markdown('''
         ## О программе
-        Игровая площадка реализует [Retrieval-Augmented Generation (RAG)](https://github.com/yandex-cloud-examples/yc-yandexgpt-qa-bot-for-docs/blob/main/README.md) подход
+        Чатбот реализует [Retrieval-Augmented Generation (RAG)](https://github.com/yandex-cloud-examples/yc-yandexgpt-qa-bot-for-docs/blob/main/README.md) подход
         и использует следующие компоненты:
         - [Yandex GPT](https://cloud.yandex.ru/services/yandexgpt)
         - [Yandex GPT for Langchain](https://pypi.org/project/yandex-chain/)
