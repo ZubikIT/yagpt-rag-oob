@@ -105,7 +105,7 @@ def main():
     # Отображаем лого измененного небольшого размера
     st.image(resized_logo)
     # Указываем название и заголовок Streamlit приложения
-    st.title('YaGPT-чат с вашими PDF файлами')
+    st.title('Игровая площадка на базе YandexGPT для построение Вопрос-Ответных Систем по PDF файлам')
     st.warning('Загружайте свои PDF-файлы и задавайте вопросы по ним. Если вы уже загрузили свои файлы, то ***обязательно*** удалите их из списка загруженных и переходите к чату ниже.')
 
     # вводить все credentials в графическом интерфейсе слева
@@ -114,7 +114,7 @@ def main():
         st.title('\U0001F917\U0001F4ACИИ-помощник')
         st.markdown('''
         ## О программе
-        Данный YaGPT-помощник реализует [Retrieval-Augmented Generation (RAG)](https://github.com/yandex-cloud-examples/yc-yandexgpt-qa-bot-for-docs/blob/main/README.md) подход
+        Игровая площадка реализует [Retrieval-Augmented Generation (RAG)](https://github.com/yandex-cloud-examples/yc-yandexgpt-qa-bot-for-docs/blob/main/README.md) подход
         и использует следующие компоненты:
         - [Yandex GPT](https://cloud.yandex.ru/services/yandexgpt)
         - [Yandex GPT for Langchain](https://pypi.org/project/yandex-chain/)
