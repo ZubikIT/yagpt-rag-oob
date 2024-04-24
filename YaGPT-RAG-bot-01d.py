@@ -94,7 +94,8 @@ def ingest_docs(temp_dir: str = tempfile.gettempdir()):
 # это основная функция, которая запускает приложение streamlit
 def main():
     # Загрузка логотипа компании
-    logo_image = './images/logo.png'  # Путь к изображению логотипа
+    # logo_image = './images/logo.png'  # Путь к изображению логотипа
+    logo_image = st.secrets["logo_image"]
 
     # # Отображение логотипа в основной части приложения
     from PIL import Image
