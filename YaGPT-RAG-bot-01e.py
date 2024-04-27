@@ -133,7 +133,7 @@ def main():
       "YandexGPT Lite",
       "YandexGPT Pro"      
     ]    
-    index_model = 0
+    index_model = 1
     selected_model = st.sidebar.radio("Выберите модель для работы:", model_list, index=index_model, key="index")     
     
     # yagpt_prompt = st.sidebar.text_input("Промпт-инструкция для YaGPT")
