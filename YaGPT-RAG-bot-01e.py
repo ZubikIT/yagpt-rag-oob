@@ -102,7 +102,7 @@ def main():
     # Загрузка логотипа
     logo = Image.open(logo_image)
     # Изменение размера логотипа
-    resized_logo = logo.resize((300, 300))
+    resized_logo = logo.resize((300, 100))
     # Отображаем лого измененного небольшого размера
     st.image(resized_logo)
     # Указываем название и заголовок Streamlit приложения
