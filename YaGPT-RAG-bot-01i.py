@@ -94,14 +94,14 @@ def ingest_docs(temp_dir: str = tempfile.gettempdir()):
 # это основная функция, которая запускает приложение streamlit
 def main():
     # Загрузка логотипа компании
-    logo_image = './images/logo-rosseti.jpg'  # Путь к изображению логотипа
+    logo_image = './images/logo.png'  # Путь к изображению логотипа
 
     # # Отображение логотипа в основной части приложения
     from PIL import Image
     # Загрузка логотипа
     logo = Image.open(logo_image)
     # Изменение размера логотипа
-    resized_logo = logo.resize((200, 150))
+    resized_logo = logo.resize((100, 100))
     # Отображаем лого измененного небольшого размера
     st.image(resized_logo)
     # Указываем название и заголовок Streamlit приложения
